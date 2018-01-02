@@ -28,9 +28,9 @@ function copy_themes() {
 
 
 
-copy_plugins()
-copy_libs()
-copy_themes()
+copy_plugins
+copy_libs
+copy_themes
 
 if [ -f "$DM_CUSTOM_DIR/driedtoast.zsh" ] ; then
  cp driedtoast.zsh ../
